@@ -1,3 +1,8 @@
+/*
+The const declaration creates a read-only reference to a value. 
+It does not mean the value it holds is immutable, solely that 
+the variable identifier can not be reassigned.
+*/
 const http = require("http");
 
 const myServer = http.createServer(execute_request);
